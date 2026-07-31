@@ -1,0 +1,69 @@
+site_name: NekoliveBot 管理員手冊
+site_description: Nekolive 平台 Discord 機器人 NekoliveBot 的管理員操作說明
+
+theme:
+  name: material
+  language: zh-TW
+  palette:
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切換成淺色模式
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切換成深色模式
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - blog
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - 新手上路: index.md
+  # - 快速開始: getting-started.md
+  - 公開指令:
+      - 檢舉功能: commands/report.md
+  - 管理指令:
+      - 群組功能開關: commands/settings.md
+      - 洗版偵測: commands/antispam.md
+      - 誘餌頻道: commands/honeypot.md
+      - 可疑帳號偵測: commands/accountcheck.md
+      - 全域黑名單: commands/blacklist.md
+      - 機器人身分: commands/identity.md
+      - 身分組編號查詢: commands/roleid.md
+      - 建立 Webhook: commands/webhook.md
+  - 常見問題與疑難排解: faq.md
+  - 聯繫我們: contact.md
+  - 更新紀錄: 
+    - blog/index.md
+
+extra:
+  generator: false

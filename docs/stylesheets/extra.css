@@ -1,0 +1,85 @@
+/*! @license Custom Non-Commercial | (c) 2026 Nekolive.net | contact@nekolive.net */
+:root {
+  --md-text-font: 'Fira Code', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", "PingFang TC", "Microsoft JhengHei", Roboto, Helvetica, Arial, sans-serif;
+  --md-code-font: 'Fira Code', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", "PingFang TC", "Microsoft JhengHei", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Light Mode */
+[data-md-color-scheme="default"] {
+  /* Primary */
+  --md-primary-fg-color: #2F78E8;
+  --md-primary-fg-color--light: #5A97F0;
+  --md-primary-fg-color--dark: #1E63D6;
+
+  /* Accent / Brand */
+  --md-accent-fg-color: #91BEFF;
+
+  /* Background */
+  --md-default-bg-color: #F7FAFF;
+
+  /* Text */
+  --md-default-fg-color: #1D3557;
+  --md-default-fg-color--light: #5E6B80;
+  --md-default-fg-color--lighter: #7A879A;
+  --md-default-fg-color--lightest: #A7B2C2;
+
+  /* Links */
+  --md-typeset-a-color: #2F78E8;
+
+  /* Code */
+  --md-code-bg-color: #EEF5FF;
+  --md-code-fg-color: #234066;
+
+  /* Footer */
+  --md-footer-bg-color: #EAF3FF;
+  --md-footer-bg-color--dark: #DCEAFF;
+}
+
+/* Dark Mode */
+[data-md-color-scheme="slate"] {
+  /* Primary */
+  --md-primary-fg-color: #2F78E8;
+  --md-primary-fg-color--light: #5A97F0;
+  --md-primary-fg-color--dark: #1E63D6;
+
+  /* Accent / Brand */
+  --md-accent-fg-color: #91BEFF;
+
+  /* Background */
+  --md-default-bg-color: #0F1724;
+
+  /* Text */
+  --md-default-fg-color: #EAF3FF;
+  --md-default-fg-color--light: #B9C7DA;
+  --md-default-fg-color--lighter: #8DA0B8;
+  --md-default-fg-color--lightest: #64748B;
+
+  /* Links */
+  --md-typeset-a-color: #91BEFF;
+
+  /* Code */
+  --md-code-bg-color: #182232;
+  --md-code-fg-color: #EAF3FF;
+
+  /* Footer */
+  --md-footer-bg-color: #182232;
+  --md-footer-bg-color--dark: #101926;
+}
+
+html,body{
+  font-feature-settings: unset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900 !important;
+}
+
+.md-typeset .admonition,
+.md-search__form {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition,
+[data-md-color-scheme="slate"] .md-search__form {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
