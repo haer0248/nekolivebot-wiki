@@ -56,7 +56,9 @@ nav:
       - 洗版偵測: commands/antispam.md
       - 誘餌頻道: commands/honeypot.md
       - 可疑帳號偵測: commands/accountcheck.md
+      - 大量標記偵測: commands/mentionguard.md
       - 全域黑名單: commands/blacklist.md
+      - 伺服器結構備份: commands/backup.md
       - 機器人身分: commands/identity.md
       - 身分組編號查詢: commands/roleid.md
       - 建立 Webhook: commands/webhook.md
