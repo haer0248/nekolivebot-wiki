@@ -51,6 +51,7 @@ nav:
   # - 快速開始: getting-started.md
   - 公開指令:
       - 檢舉功能: commands/report.md
+      - 動態語音頻道: commands/voice.md
   - 管理指令:
       - 群組功能開關: commands/settings.md
       - 洗版偵測: commands/antispam.md
