@@ -60,6 +60,7 @@ nav:
       - 大量標記偵測: commands/mentionguard.md
       - 全域黑名單: commands/blacklist.md
       - 伺服器結構備份: commands/backup.md
+      - 伺服器紀錄: commands/serverlog.md
       - 機器人身分: commands/identity.md
       - 身分組編號查詢: commands/roleid.md
       - 建立 Webhook: commands/webhook.md
