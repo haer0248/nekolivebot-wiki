@@ -52,19 +52,26 @@ nav:
   - 公開指令:
       - 檢舉功能: commands/report.md
       - 動態語音頻道: commands/voice.md
+      - 私密轉送: commands/silent.md
   - 管理指令:
       - 群組功能開關: commands/settings.md
       - 洗版偵測: commands/antispam.md
       - 誘餌頻道: commands/honeypot.md
       - 可疑帳號偵測: commands/accountcheck.md
       - 大量標記偵測: commands/mentionguard.md
+      - 自動懲處: commands/autopunish.md
+      - 邀請連結偵測: commands/inviteguard.md
+      - 網址安全檢查: commands/urlsafety.md
       - 全域黑名單: commands/blacklist.md
       - 伺服器結構備份: commands/backup.md
       - 伺服器紀錄: commands/serverlog.md
       - 身分組領取: commands/rolepanel.md
+      - 公告頻道自動發佈: commands/publish.md
+      - 自動討論串: commands/autothread.md
       - 機器人身分: commands/identity.md
       - 身分組編號查詢: commands/roleid.md
       - 建立 Webhook: commands/webhook.md
+  - 從舊機器人轉移: migration.md
   - 常見問題與疑難排解: faq.md
   - 聯繫我們: contact.md
   - 更新紀錄: 
