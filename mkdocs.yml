@@ -53,6 +53,7 @@ nav:
       - 檢舉功能: commands/report.md
       - 動態語音頻道: commands/voice.md
       - 私密轉送: commands/silent.md
+      - 查詢資訊: commands/info.md
   - 管理指令:
       - 群組功能開關: commands/settings.md
       - 洗版偵測: commands/antispam.md
@@ -68,9 +69,11 @@ nav:
       - 身分組領取: commands/rolepanel.md
       - 公告頻道自動發佈: commands/publish.md
       - 自動討論串: commands/autothread.md
+      - Twitter／X 連結預覽: commands/twitter.md
       - 機器人身分: commands/identity.md
       - 身分組編號查詢: commands/roleid.md
       - 建立 Webhook: commands/webhook.md
+  - 網頁控制台: dashboard.md
   - 從舊機器人轉移: migration.md
   - 常見問題與疑難排解: faq.md
   - 聯繫我們: contact.md

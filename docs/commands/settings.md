@@ -28,6 +28,7 @@
 | [邀請連結偵測](inviteguard.md) | `invite_guard` | 全域累計各伺服器出現的 Discord 邀請連結，同一個邀請被貼到第 5 次時查詢目標伺服器名稱，符合 18+／NSFW 等違規關鍵字就刪除訊息或處分。 | 未啟用 |
 | [自動討論串](autothread.md) | `auto_thread` | 在指定頻道發訊息，機器人會自動用那則訊息開一個討論串。要先用 `/autothread add` 設定頻道才會有作用。 | 啟用 |
 | [自動懲處](autopunish.md) | `auto_punish` | 偵測 Discord Nitro 免費領取等詐騙訊息，以及全域與伺服器自訂的黑名單文字，自動刪除訊息並處分。 | 未啟用 |
+| [Twitter／X 連結預覽](twitter.md) | `twitter_embed` | 成員貼 Twitter／X 的貼文連結時，機器人回覆一則換成 vxtwitter 的連結，讓 Discord 正常顯示貼文預覽。 | 未啟用 |
 | [私密轉送](silent.md) | `silent` | 成員用 `/silent send` 送出訊息，由機器人匿名轉送到指定頻道。要先用 `/silent-setup channel` 設定轉送頻道才會有作用。 | 啟用 |
 | [動態語音頻道](voice.md) | `dynamic_voice` | 成員加入入口語音頻道時，自動開一個自己的語音頻道，沒有人時自動刪除。要先用 `/voice default enter` 設定入口頻道才會有作用。 | 啟用 |
 

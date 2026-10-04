@@ -1,6 +1,6 @@
 # 從舊機器人轉移
 
-NekoliveBot#4325 接手了舊機器人 haer0248.me🍙#5792 的功能：公告頻道自動發佈、網址安全檢查、邀請連結偵測、自動討論串、自動懲處、私密轉送、動態語音頻道。
+NekoliveBot#4325 接手了舊機器人 haer0248.me🍙#5792 的功能：公告頻道自動發佈、網址安全檢查、邀請連結偵測、自動討論串、自動懲處、私密轉送、動態語音頻道、Twitter／X 連結預覽。
 
 **以前有用舊機器人的伺服器，不用重新設定。**
 
@@ -15,6 +15,8 @@ NekoliveBot#4325 接手了舊機器人 haer0248.me🍙#5792 的功能：公告�
 | 自動建立討論串（頻道、標題、開頭訊息、冷卻） | [自動討論串](commands/autothread.md) |
 | 自動懲處（動作、刪訊息、頻道警告、私訊擁有者、檢查機器人訊息） | [自動懲處](commands/autopunish.md) |
 | 私密轉送（頻道、冷卻） | [私密轉送](commands/silent.md) |
+| `/info`（使用者、伺服器、身分組、表情符號、邀請連結、權限檢查、支援伺服器） | [查詢資訊](commands/info.md) |
+| `/setting twitter`（Twitter 網址轉換） | [Twitter／X 連結預覽](commands/twitter.md) |
 | 動態語音（入口頻道、名稱、人數、私人、文字頻道） | [動態語音頻道](commands/voice.md) |
 | 訊息紀錄＋紀錄頻道 | [伺服器紀錄](commands/serverlog.md) |
 
