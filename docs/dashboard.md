@@ -2,6 +2,8 @@
 
 除了用指令，也可以在網頁上調整 NekoliveBot 的設定。網頁控制台跟創作者斗內平台是分開的，不需要平台帳號，用 Discord 帳號登入就可以。
 
+**[bot.nekolive.net](https://bot.nekolive.net/){:target="_blank"}**
+
 ## 可以做什麼
 
 * 開關每一項功能，調整各功能的細節設定（跟對應的 `config` 指令是同一份設定，改哪邊都一樣）

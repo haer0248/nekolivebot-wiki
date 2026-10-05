@@ -1,10 +1,12 @@
 # NekoliveBot 管理員手冊
 
-**[點我邀請 NekoliveBot 加入您的群組](https://discord.com/oauth2/authorize?client_id=1083697241711181864){:target="_blank"}**
+**[點我邀請 NekoliveBot 加入您的群組](https://l.nekolive.net/bot){:target="_blank"}**
+
+**[點我使用機器人控制台](https://bot.nekolive.net/){:target="_blank"}**
 
 NekoliveBot 是創作者斗內平台提供的 Discord 群組管理機器人，目前有提供洗版偵測、誘餌頻道（抓洗版機器人）、可疑帳號偵測、自動懲處（Nitro 詐騙）、邀請連結偵測、網址安全檢查、全域黑名單、公告頻道自動發佈、自動討論串、私密轉送、動態語音頻道、使用者檢舉、機器人身分客製化等功能。
 
-以前有用舊機器人 haer0248.me-v3 的話，設定會自動搬過來，見[從舊機器人轉移](migration.md)。
+以前有用舊機器人 haer0248.me🍙#5792 的話，設定會自動搬過來，見[從舊機器人轉移](migration.md)。
 
 這份文件是寫給**伺服器管理員（需要權限：`管理伺服器`）**看的操作手冊：每個指令怎麼用、預設值是什麼、什麼情況下會私訊通知、遇到問題要怎麼排查。
 
