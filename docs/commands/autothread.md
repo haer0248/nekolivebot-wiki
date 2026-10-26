@@ -8,7 +8,7 @@
 
 ## 總開關
 
-用 `/settings enable|disable auto_thread` 控制（見[群組功能開關](settings.md)），預設為**啟用**，但要先用 `/autothread add` 設定頻道才會有作用。
+用 `/settings enable|disable auto_thread` 控制（見[群組功能開關](settings.md)），預設為**未啟用**，打開之後還要用 `/autothread add` 設定頻道才會有作用。
 
 ## 指令
 

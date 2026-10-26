@@ -8,7 +8,7 @@
 
 ## 總開關
 
-功能本身要不要執行，是用 `/settings enable|disable dynamic_voice` 控制（見[群組功能開關](settings.md)），預設為**啟用**，但要先用 `/voice default enter` 設定入口頻道才會有作用。
+功能本身要不要執行，是用 `/settings enable|disable dynamic_voice` 控制（見[群組功能開關](settings.md)），預設為**未啟用**，打開之後還要用 `/voice default enter` 設定入口頻道才會有作用。
 
 關閉之後就不會再開新頻道，已經開出來的頻道還是會在沒有人時自動刪除。
 

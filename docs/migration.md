@@ -1,6 +1,6 @@
 # 從舊機器人轉移
 
-NekoliveBot#4325 接手了舊機器人 haer0248.me🍙#5792 的功能：公告頻道自動發佈、網址安全檢查、邀請連結偵測、自動討論串、自動懲處、私密轉送、動態語音頻道、Twitter／X 連結預覽。
+NekoliveBot#4325 接手了舊機器人 haer0248.me🍙#5792 的功能：公告頻道自動發佈、網址安全檢查、邀請連結偵測、自動討論串、自動懲處、私密轉送、動態語音頻道、Twitter 網址轉換（現在是[社交媒體預覽](commands/twitter.md)）、新帳號自動踢出。
 
 **以前有用舊機器人的伺服器，不用重新設定。**
 
@@ -16,14 +16,16 @@ NekoliveBot#4325 接手了舊機器人 haer0248.me🍙#5792 的功能：公告�
 | 自動懲處（動作、刪訊息、頻道警告、私訊擁有者、檢查機器人訊息） | [自動懲處](commands/autopunish.md) |
 | 私密轉送（頻道、冷卻） | [私密轉送](commands/silent.md) |
 | `/info`（使用者、伺服器、身分組、表情符號、邀請連結、權限檢查、支援伺服器） | [查詢資訊](commands/info.md) |
-| `/setting twitter`（Twitter 網址轉換） | [Twitter／X 連結預覽](commands/twitter.md) |
+| `/setting twitter`（Twitter 網址轉換） | [社交媒體預覽](commands/twitter.md) |
+| `/setting autokick`（帳號建立未滿幾天自動踢出） | [可疑帳號偵測](commands/accountcheck.md)：只檢查帳號建立天數、符合就踢出，不私訊擁有者 |
+| `/punish ban`、`/punish unban`、`/punish check` | [`/pban`、`/punban`](commands/pban.md)、[`/pcheck`](commands/autopunish.md) |
 | 動態語音（入口頻道、名稱、人數、私人、文字頻道） | [動態語音頻道](commands/voice.md) |
 | 訊息紀錄＋紀錄頻道 | [伺服器紀錄](commands/serverlog.md) |
 
 另外，舊機器人累積的邀請連結判定、假冒網域清單，已經直接併進 NekoliveBot 的全域資料，所有伺服器都會用到。
 
 !!! note "舊機器人的「預設關閉」不會被搬過來"
-    舊機器人會把整份預設值存進每個伺服器，所以分不出「管理員關掉的」和「從來沒開過的」。公告自動發佈、網址安全檢查、自動討論串、動態語音這四個開關，舊設定是關閉的話就不搬，改用 NekoliveBot 自己的預設值（公告自動發佈預設開啟；自動討論串、動態語音要設定頻道才會有作用）。  
+    舊機器人會把整份預設值存進每個伺服器，所以分不出「管理員關掉的」和「從來沒開過的」。公告自動發佈、網址安全檢查、自動討論串、動態語音、Twitter 網址轉換這幾個開關，舊設定是關閉的話就不搬，改用 NekoliveBot 自己的預設值（都是未啟用）。  
     自動懲處在舊機器人預設就是開啟、動作是封鎖，這是這些伺服器一直以來的實際行為，所以照搬。想改成禁言可以用 `/autopunish config`。
 
 !!! info "不會蓋掉你已經改過的設定"
@@ -36,6 +38,9 @@ NekoliveBot#4325 接手了舊機器人 haer0248.me🍙#5792 的功能：公告�
 
 * `/settings import-legacy`：匯入舊機器人在這個伺服器的設定
 * `/settings import-legacy again:True`：已經匯入過，想再跑一次（一樣不會蓋掉現有設定）
+
+!!! tip "10/22 以前匯入過的伺服器"
+    舊機器人的「新帳號自動踢出」是 10/22 才加進匯入的。之前就匯入過、而且舊機器人有設定自動踢出的伺服器，執行一次 `/settings import-legacy again:True` 就會補上。
 
 ## 匯入完記得把舊機器人踢掉
 

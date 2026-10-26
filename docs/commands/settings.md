@@ -24,14 +24,19 @@
 | [伺服器紀錄](serverlog.md) | `server_log` | 記錄成員加入／離開、身分組變更、訊息編輯／刪除、語音頻道進出，可在後台查詢，也可以指定頻道即時發送。 | 未啟用 |
 | [成員進出訊息](greet.md) | `member_messages` | 有人加入、離開、被停權、被踢出時，發一則自訂的訊息（純文字或 Embed）到指定頻道，加入時也可以私訊新成員。五種訊息要各自打開。 | 啟用 |
 | [身分組領取](rolepanel.md) | `role_panel` | 在頻道放一則面板訊息，成員自己用按鈕、下拉選單或表情反應領取創作者開放的身分組。 | 未啟用 |
-| [公告頻道自動發佈](publish.md) | `announce_publish` | 公告頻道的訊息自動「發佈」給追蹤這個頻道的其他伺服器。預設所有公告頻道都會發佈，不想發佈的頻道用 `/publish exclude` 排除。 | 啟用 |
+| [公告頻道自動發佈](publish.md) | `announce_publish` | 公告頻道的訊息自動「發佈」給追蹤這個頻道的其他伺服器。打開後所有公告頻道都會發佈，不想發佈的頻道用 `/publish exclude` 排除。 | 未啟用 |
 | [網址安全檢查](urlsafety.md) | `url_safety` | 成員貼的網址送到 Google 安全瀏覽檢查（常見社群網站略過），檢查出有問題才會提醒大家謹慎點選。 | 未啟用 |
 | [邀請連結偵測](inviteguard.md) | `invite_guard` | 全域累計各伺服器出現的 Discord 邀請連結，同一個邀請被貼到第 5 次時查詢目標伺服器名稱，符合 18+／NSFW 等違規關鍵字就刪除訊息或處分。 | 未啟用 |
-| [自動討論串](autothread.md) | `auto_thread` | 在指定頻道發訊息，機器人會自動用那則訊息開一個討論串。要先用 `/autothread add` 設定頻道才會有作用。 | 啟用 |
+| [自動討論串](autothread.md) | `auto_thread` | 在指定頻道發訊息，機器人會自動用那則訊息開一個討論串。要用 `/autothread add` 設定頻道才會有作用。 | 未啟用 |
 | [自動懲處](autopunish.md) | `auto_punish` | 偵測 Discord Nitro 免費領取等詐騙訊息，以及全域與伺服器自訂的黑名單文字，自動刪除訊息並處分。 | 未啟用 |
-| [Twitter／X 連結預覽](twitter.md) | `twitter_embed` | 成員貼 Twitter／X 的貼文連結時，機器人回覆一則換成 vxtwitter 的連結，讓 Discord 正常顯示貼文預覽。 | 未啟用 |
-| [私密轉送](silent.md) | `silent` | 成員用 `/silent send` 送出訊息，由機器人匿名轉送到指定頻道。要先用 `/silent-setup channel` 設定轉送頻道才會有作用。 | 啟用 |
-| [動態語音頻道](voice.md) | `dynamic_voice` | 成員加入入口語音頻道時，自動開一個自己的語音頻道，沒有人時自動刪除。要先用 `/voice default enter` 設定入口頻道才會有作用。 | 啟用 |
+| [關鍵字回應](keywordreply.md) | `keyword_reply` | 成員的訊息符合設定的關鍵字時，機器人自動回覆。可以設定誰能用、冷卻時間、限定頻道，也能從 Twitch 自訂指令匯入。 | 未啟用 |
+| [社交媒體預覽](twitter.md) | `twitter_embed` | 成員貼 Twitter／X、Instagram、Threads、Facebook 的貼文連結時，機器人回覆一則修正過的連結，讓 Discord 正常顯示貼文的文字、圖片與影片。 | 未啟用 |
+| [私密轉送](silent.md) | `silent` | 成員用 `/silent send` 送出訊息，由機器人匿名轉送到指定頻道。要用 `/silent-setup channel` 設定轉送頻道才會有作用。 | 未啟用 |
+| [動態語音頻道](voice.md) | `dynamic_voice` | 成員加入入口語音頻道時，自動開一個自己的語音頻道，沒有人時自動刪除。要用 `/voice default enter` 設定入口頻道才會有作用。 | 未啟用 |
+| [資訊顯示頻道](infochannels.md) | `info_channels` | 在伺服器開只能看、不能進的語音頻道，用頻道名稱顯示現在有沒有在直播，以及總人數、線上人數、機器人數量。 | 未啟用 |
+
+!!! note "公告自動發佈、自動討論串、私密轉送、動態語音的預設改成未啟用"
+    這四個功能以前預設是啟用的，10 月起新加入的伺服器要自己打開。原本就有在用的伺服器維持啟用，不受影響。
 
 ## 匯入舊機器人設定
 

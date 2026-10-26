@@ -34,6 +34,7 @@
 * `/autopunish words add <text>`：新增伺服器黑名單文字（2～100 個字）
 * `/autopunish words remove <text>`：移除伺服器黑名單文字
 * `/autopunish words list`：列出伺服器黑名單文字
+* `/pcheck <content>`：貼一段文字或網址，檢查會不會被自動懲處抓到。命中伺服器黑名單時會顯示比對到的文字；命中平台的全域清單時只顯示類別，不顯示是哪個字
 
 平台後台「模組設定 → 自動懲處」也可以調整設定與黑名單文字。
 

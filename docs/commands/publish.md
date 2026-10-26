@@ -8,7 +8,7 @@
 
 ## 總開關
 
-用 `/settings enable|disable announce_publish` 控制（見[群組功能開關](settings.md)），預設為**啟用**。
+用 `/settings enable|disable announce_publish` 控制（見[群組功能開關](settings.md)），預設為**未啟用**。
 
 ## 指令
 
