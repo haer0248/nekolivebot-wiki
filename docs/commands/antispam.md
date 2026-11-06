@@ -16,7 +16,7 @@
 
 ## 指令
 
-* `/antispam config [notify_owner] [delete_messages] [action] [threshold] [interval] [timeout_minutes]`：調整設定，所有選項為選填
+* `/antispam config [notify_owner] [delete_messages] [action] [threshold] [interval] [timeout_minutes] [ban_delete_hours]`：調整設定，所有選項為選填
 * `/antispam status`：查看目前設定
 
 ## 提供設定選項
@@ -28,5 +28,9 @@
 | `action` | 處理動作：不處理、禁言、踢出、封鎖（四選一） | 不處理 |
 | `threshold` / `interval` | 幾秒內幾則算洗版 | 7 秒 / 5 則 |
 | `timeout_minutes` | 禁言分鐘數，`action` 設成禁言時使用 | 系統預設值 |
+| `ban_delete_hours` | `action` 設成封鎖時，一併刪除對方最近多久的訊息：不刪除、1 小時、6 小時、12 小時、1 天、3 天、7 天 | 不刪除 |
+
+!!! tip "`delete_messages` 跟 `ban_delete_hours` 的差別"
+    `delete_messages` 只刪觸發偵測的那個頻道、偵測時間內的訊息。`ban_delete_hours` 是封鎖時請 Discord 一併刪除，範圍是對方在**整個伺服器**、指定時間內發的所有訊息，在好幾個頻道輪流洗版也刪得乾淨。
 
 > `action` 不是三個獨立開關，因為對同一次洗版事件而言，禁言、踢出、封鎖本質上是嚴重程度的選擇，不會同時執行。

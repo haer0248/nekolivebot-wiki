@@ -67,6 +67,7 @@ nav:
       - 網址安全檢查: commands/urlsafety.md
       - 手動封鎖: commands/pban.md
       - 刪除使用者訊息: commands/bulk-message.md
+      - 抽獎: commands/giveaway.md
       - 清除成員: commands/prune.md
       - 全域黑名單: commands/blacklist.md
       - 伺服器結構備份: commands/backup.md
