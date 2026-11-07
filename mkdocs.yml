@@ -58,6 +58,7 @@ nav:
   - 管理指令:
       - 綁定 Nekolive 創作者帳號: commands/nekolive.md
       - 群組功能開關: commands/settings.md
+      - 通知對象: commands/notification.md
       - 洗版偵測: commands/antispam.md
       - 誘餌頻道: commands/honeypot.md
       - 可疑帳號偵測: commands/accountcheck.md
