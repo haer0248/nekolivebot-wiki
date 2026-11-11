@@ -76,6 +76,7 @@ nav:
       - 成員進出訊息: commands/greet.md
       - 身分組領取: commands/rolepanel.md
       - 公告頻道自動發佈: commands/publish.md
+      - Twitch 開台通知: commands/livenotify.md
       - 自動討論串: commands/autothread.md
       - 資訊顯示頻道: commands/infochannels.md
       - 關鍵字回應: commands/keywordreply.md
